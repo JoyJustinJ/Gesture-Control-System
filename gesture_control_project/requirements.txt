@@ -1,0 +1,10 @@
+mediapipe
+pyautogui
+pygetwindow
+pycaw
+screen-brightness-control
+keyboard
+=======
+opencv-python
+mediapipe
+pyautogui

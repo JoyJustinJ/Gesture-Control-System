@@ -1,0 +1,37 @@
+Gesture Instructions for Gesture Control System
+
+Welcome to the Gesture Control System! This program allows you to control your computer using hand gestures detected via your webcam. Below is a list of supported gestures. Make sure your hand is clearly visible to the camera, and hold the gesture steady for a moment until the action is triggered.
+
+Supported Gestures:
+
+- Open Palm (one hand): Hold your hand with all fingers fully extended and palm facing the camera. This opens Notepad.
+
+- Closed Fist (left hand only): Make a fist with your left hand (all fingers curled in). This closes the currently active window.
+
+- Peace Sign (one hand): Extend your index and middle fingers while keeping the ring and pinky fingers down. This opens the Calculator.
+
+- Thumb Up (left hand only): Extend your thumb upward with other fingers curled in, using your left hand. This opens your web browser (Chrome).
+
+- Ring Finger Up (one hand): Extend only your ring finger while keeping others down. This takes a screenshot and saves it as 'screenshot.png'.
+
+- Two Index Fingers Up (both hands): Extend the index finger on both hands while keeping other fingers down. This minimizes the current window.
+
+- Two Middle Fingers Up (both hands): Extend the middle finger on both hands while keeping other fingers down. This maximizes the current window.
+
+- Swipe Left: Quickly move your hand to the left. This switches to the previous window.
+
+- Swipe Right: Quickly move your hand to the right. This switches to the next window.
+
+How to Run the System:
+
+1. Ensure you have installed the required dependencies: OpenCV, MediaPipe, and PyAutoGUI. You can install them using 'pip install -r requirements.txt'.
+
+2. Navigate to the gesture_control_project directory in your terminal.
+
+3. Run the program with: python gesture_control.py
+
+4. A window will open showing your camera feed. Perform the gestures in front of the camera.
+
+5. Press 'q' in the camera window to quit the program.
+
+Note: Actions have a cooldown to prevent accidental triggers. Gestures must be detected clearly for the system to respond.
