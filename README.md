@@ -51,7 +51,7 @@ Apply cooldown timing to ensure stable performance.
 Installation
 
 Clone the Repository
-git clone https://github.com/yourusername/gesture-control-system.git
+git clone https://github.com/JoyJustinJ/Gesture-Control-System.git
 cd gesture-control-system
 
 Install Dependencies
@@ -102,4 +102,5 @@ Author
 
 Joy Justin J
 B.Tech – Artificial Intelligence and Data Science
+
 jkjustin1805@gmail.com
